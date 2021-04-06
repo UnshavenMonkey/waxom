@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    padding: 40px 150px;
+    background-image: url(image/bg_image_header.png);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+}
+
+.header-menu {
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.header-menu-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}    
