@@ -25,6 +25,11 @@
 }
 
 @font-face {
+    font-family: raleway-semibold;
+    src: url("./fonts/raleway/raleway-semibold.ttf");
+}
+
+@font-face {
     font-family: montserrat-bold;
     src: url("./fonts/montserrat/montserrat-bold.ttf");
 }
@@ -307,4 +312,63 @@
     background-color: transparent;
     border: 2px solid #d3c1ad;
     transform: scale(1.2);
+}
+
+
+.services-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 375px;
+}
+
+.services-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 266px;
+}
+
+.services-item:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+}
+
+.services-item:hover .services-svg {
+    fill: #c7b299;
+}
+
+.services-item:hover .services-item-title {
+    color: #c7b299;
+}
+
+.services-item:hover:after {
+    background-color: #c7b299;
+}
+
+.services-svg {
+    margin: 0 0 30px 0;
+    fill: #555555;
+}
+
+.services-item-title {
+    margin: 0 0 20px 0;
+    font-family: 'raleway-semibold', sans-serif;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.services-item-text {
+    text-align: center;
+    font-family: 'montserrat-light', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin: 0 0 30px 0;
 }
