@@ -528,7 +528,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 80px 374px;
+    padding: 80px 300px;
 }
 
 .latest-projects-title {
@@ -1394,10 +1394,6 @@
         max-width: 1440px;
     }
 
-    .presentation-video {
-        width: 1440px;
-    }
-
     .recent-posts {
         padding: 80px 100px;
     }
@@ -1473,9 +1469,6 @@
         margin: 0 25px 25px 0;
     }
 
-    .presentation-video {
-        width: 1024px;
-    }
 
     .excellent {
         padding: 40px 30px 0 30px;
