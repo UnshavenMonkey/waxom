@@ -1789,6 +1789,21 @@
         display: none;
     }     
 }
+
+@media (max-width: 425px) {
+
+    .partners {
+        background-size: cover;
+    }
+
+    .partners-link {
+        width: 100%;
+    }
+
+    .footer-info {
+        padding: 2%;
+    }
+}
     
 
 
